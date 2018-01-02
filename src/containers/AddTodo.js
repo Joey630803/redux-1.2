@@ -6,12 +6,13 @@ import AddTodoUi from '../components/AddTodoUi'
 
 const mapDispatchToProps=(dispatch,ownProps)=>({
     addtodoClick : (text)=>{
-        console.log(dispatch)
+        console.log('123')
         dispatch(addTodo(text))
         // type:'ADD_TODO',
         // text
     }
 })
+
 // const mapDispatchToProps=dispatch=>({
 //     addtodoClick:bindActionCreators(addTodo, dispatch)
 // })
